@@ -1,0 +1,5 @@
+\Assets\Hotfix\Module\UI\UICommunity_Profile\Component\UICommunity_ProfileComponent.cs
+
+async 規則
+要回傳 ETTask
+使用 await 

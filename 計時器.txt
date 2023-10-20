@@ -1,0 +1,4 @@
+Unity 內建
+System.Threading.Tasks.Task.Delay(1000);
+ETModel 
+ETModel.Game.Scene.GetComponent<TimerComponent>().WaitForSecondAsync(5);
