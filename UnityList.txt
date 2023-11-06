@@ -1,0 +1,7 @@
+﻿//找
+1.GetComponent
+//瞄定
+2.GetComponent<RectTransform>().anchoredPosition
+//(重要 從場景中尋找)
+3.Game.Scene.GetComponent
+4.Game.EventSystem.Run
