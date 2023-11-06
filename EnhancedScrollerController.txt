@@ -1,0 +1,14 @@
+﻿EnhancedScrollerController
+1.Data:使用的動態資料 
+
+
+2. View:版型
+         1.Data資料放入對應欄位
+3. Controller:控制
+        1.Data字典
+2.放入主程式內進行操作
+3.SetData GetCollView 
+4.主程式中使用setData將做好的List 或字典將資料依寫法將資料依序放入字典
+
+
+5.Action使用此方法將參數 作成方法 用invoke
