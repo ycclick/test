@@ -1,0 +1,19 @@
+﻿麥克風
+private void BtnClick_MicrophoneVolumeIncrease()
+        {
+            if (Slider_Microphone.value < maxVolume)
+            {
+                OnValueChange_MicrophoneVolume(Slider_Microphone.value + volumeChange);
+                Slider_Microphone.value = (float)(_gvoiceComponent.MicrophoneVolume / 150f);
+            }
+        }
+
+
+        private void BtnClick_MicrophoneVolumeDecrease()
+        {
+            if (Slider_Microphone.value > minVolume)
+            {
+                OnValueChange_MicrophoneVolume(Slider_Microphone.value - volumeChange);
+                Slider_Microphone.value = (float)(_gvoiceComponent.MicrophoneVolume / 150f);
+            }
+        }
